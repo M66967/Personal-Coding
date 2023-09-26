@@ -1,0 +1,31 @@
+op = input("What operation would you like to do: ") 
+
+num1 = int(input("Input number 1: ")) 
+
+num2 = int(input("Input number 2: ")) 
+
+  
+
+if op == "+": 
+
+    total = num1 + num2 
+
+    print(total) 
+
+elif op == "-": 
+
+    total = num1 - num2 
+
+    print(total) 
+
+elif op == "*": 
+
+    total = num1 * num2 
+
+    print(total) 
+
+elif op == "/": 
+
+    total = num1 / num2 
+
+    print (total) 
