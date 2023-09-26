@@ -1,0 +1,27 @@
+mark = int(input("Enter mark: ")) 
+
+attendance = int(input("Enter attendance: ")) 
+
+  
+
+if attendance > 90: 
+
+    if mark > 90: 
+
+        print("Grade A") 
+
+    elif mark > 80: 
+
+        print("Grade B") 
+
+    elif mark > 70: 
+
+        print("Grade C") 
+
+    else: 
+
+        print("Fail") 
+
+else: 
+
+    print("Fail") 
