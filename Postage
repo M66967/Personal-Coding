@@ -1,0 +1,21 @@
+order = int(input("Enter order value: ")) 
+
+postage = 5 
+
+post = int(input("Best postage? 1 for yes, 2 for 2nd class: ")) 
+
+  
+
+if order >= 15 and post == 2: 
+
+    postage = 0 
+
+elif order < 15 and post == 2: 
+
+    postage = 3.50 
+
+  
+
+total = order + postage 
+
+print("Postage:", postage, "Total:", total) 
